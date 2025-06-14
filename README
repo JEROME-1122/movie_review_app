@@ -1,0 +1,21 @@
+Step 1 - create 3 component card,footer and header , and 6 pages MoviesLsit, MovieDetails,Popular movies SeacrList,Toprated,upcoming Movies.
+
+Step 2 - create index.js file to expost all pages and component jsx (pages have one index.js and component have one index.js file)
+
+Step 3 - Install react router dom using to route tha component and tailwind to resposive the component .
+
+Step 4 - design the header.jsx and link the navigation using Link tag using react router dom .. we added seacrhing form also  and  design the footer componet also.
+
+Step 5 -  In main.jsx file add the Browser Router . and   add the pah in app.jsx  each page have ritle so we pass the title value use =ing props in each pages.
+
+Step 6 -  And create one component for fecting  (useFethc.jsx) the TMDB datas  .Login the TMDB and generate the key . and we use the key in url . so fetching the movie list with that usrl and set the valu in state using data , setData save the value in setData , then return the data value.. and each file have path name so we call tha path using apipath each have path name we added in each page component in app.jsx .
+
+Step 7 -   In MovieList.jsx file pass the title from the app and using useeffect to print the tile and we addthe pathe name call tha path name and pass the path name using useFetch(passthe apiPath).
+ we get the valu in data rename the data into movies . then we using map method to print the data into the card component .. before deight tha card componen .. that card component we used all pages . same what we did MovieLsit.jsx same do it other pages .
+
+ Step 8 -  Each pages card have one button we shwo the detail movie details in the page so we create tha page using the id (movis/:id) and create the MovieDetail.jsx deign and pass the value .. here we call the urel and casturl bacause they create cast detail anoteher url .. and we fetch both url value and in the url we add the id so we use params method to get id from the url .  then pass the details.  
+
+ Step 9 -  In header.jsx have searching section  create one input and tow select field and one button and add the onsubmit function in form . each field have name becaue we access through with the name . and import UseNavigation to search the movies create the funtion and review the value through the  add the preventDefault. and set the 3 input values in to 3 variables if any one not filled show the alert popup message the clear the text box and return the page using navigate. (i cound't get  session id so i coudn't do the add rating section)
+
+ 
+
